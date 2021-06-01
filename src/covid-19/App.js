@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import {} from 'react-bootstrap'
+import {} from 'react-bootstrap';
 import  './App.css';
 
 function App() {
@@ -20,13 +20,27 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Recovered :-  {data.recovered} </h1>
-        <h1>Confirmed :- {data.confirmed} </h1>
-        <h1> Active :- {data.active} </h1>
-        <h1> Deaths :- {data.deaths} </h1>
-        <h1> Last Updated Time :- {data.lastupdatedtime} </h1>
-        
+      <header className="App-header ">
+        <div className="heading">
+          <h1>Covid-19 <span className="india"> india </span></h1>
+          <span>Last Updated Time :- {data.lastupdatedtime}</span>
+        </div>
+        <div className="card border1">
+            <p >Recovered</p>
+            <h1>{data.recovered}</h1>
+        </div>
+        <div className="card border2">
+            <p>Confirmed</p>
+            <h1>{data.confirmed}</h1>
+        </div>
+        <div className="card border3">
+            <p >Active</p>
+            <h1>{data.active}</h1>
+        </div>
+        <div className="card border4">
+            <p >Deaths</p>
+            <h1>{data.deaths}</h1>
+        </div>       
       </header>
     </div>
   );
