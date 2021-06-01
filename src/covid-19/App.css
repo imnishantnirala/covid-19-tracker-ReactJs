@@ -1,1 +1,55 @@
 
+
+.heading{
+  font-family: 'Bungee';
+  text-align: center;
+  color:   #808b96 ;
+}
+.india{
+  color:  #3498db;
+}
+.card{
+  /* background-color: rgb(32, 32, 218); */
+  height: 200px;
+  width: 250px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  border-radius: 5px;
+  font-family: 'Bungee';
+  padding: 10px;
+  float: left;
+  margin-left: 20px;
+}
+.border1{
+  border-top: 5px solid rgb(0, 175, 0);
+}
+.border2{
+  border-top: 5px solid rgb(255, 146, 21);
+}
+.border3{
+  border-top: 5px solid rgb(200, 200, 200);
+}
+.border4{
+  border-top: 5px solid rgb(241, 58, 42);
+}
+.card>p{
+  font-size: 20px;
+  color:rgb(0, 175, 0);
+  text-align: center;
+}
+.border1>p{
+  color:rgb(0, 175, 0);
+}
+.border2>p{
+  color:rgb(255, 146, 21);
+}
+.border3>p{
+  color:rgb(200, 200, 200);
+}
+.border4>p{
+  color:rgb(241, 58, 42);
+}
+.card>h1{
+  text-align: center;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Bungee);
